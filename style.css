@@ -1,23 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: black;
   font-family: inter, san-serif;
   font-weight: bold;
 }
+
 .flex-container {
   display: flex;
   align-items: center;
-
   padding: 20px 32px;
   gap: 32px;
-
   /* border-style: solid;
-border-color: red;
-border-width: 2px; */
+   border-color: red;
+   border-width: 2px; */
   border: 2px solid red;
-
   width: 920px;
   height: 138px;
-
   background-color: #ededed;
 }
 
@@ -45,6 +47,7 @@ border-width: 2px; */
 
   width: 350px;
 }
+
 .date {
   color: #ededed;
 
