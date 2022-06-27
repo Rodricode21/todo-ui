@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  font-family: inter, san-serif;
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+
+  padding: 20px 32px;
+  gap: 32px;
+
+  /* border-style: solid;
+border-color: red;
+border-width: 2px; */
+  border: 2px solid red;
+
+  width: 920px;
+  height: 138px;
+
+  background-color: #ededed;
+}
+
+.fa-sack-dollar {
+  font-size: 64px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  width: 350px;
+}
+
+.text-title {
+  text-decoration-line: line-through;
+  font-size: 24px;
+}
+
+.date-conatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+
+  width: 350px;
+}
+.date {
+  color: #ededed;
+
+  border-radius: 6px;
+  background-color: black;
+}
+
+.check-icon {
+  width: 32px;
+  height: 32px;
+}
